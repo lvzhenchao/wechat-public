@@ -73,7 +73,7 @@ if($echostr){
 
     }
 
-
+    //加密传输给用户
     $errCode = $pc->encryptMsg($res, $timestamp, $nonce, $encryptMsg);
     //file_put_contents('info.txt',$encryptMsg."\n",FILE_APPEND);
     echo  $encryptMsg;

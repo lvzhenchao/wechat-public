@@ -1,1 +1,10 @@
-{"openid":"oovLMv78NK5zhdr6AZ-WWWNHBPFo","nickname":"左右","sex":1,"language":"zh_CN","city":"青岛","province":"山东","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/Q0j4TwGTfTL0HzhLuDHePCDIoNiarUpFpMldKY1hCl3ftfTUhAAM0lMEWwTicZTOYhlpRgGQUuxsicR7M4tODRSaw\/0","privilege":[]}
+{
+    "openid":"oovLMv78NK5zhdr6AZ-WWWNHBPFo",//可以将这个存到数据库中
+    "nickname":"左右","sex":1,
+    "language":"zh_CN",
+    "city":"青岛",
+    "province":"山东",
+    "country":"中国",
+    "headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/Q0j4TwGTfTL0HzhLuDHePCDIoNiarUpFpMldKY1hCl3ftfTUhAAM0lMEWwTicZTOYhlpRgGQUuxsicR7M4tODRSaw\/0",
+    "privilege":[]
+}

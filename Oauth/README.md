@@ -1,4 +1,4 @@
-# Oauth 登录
+# Oauth 登录 
 - 只是第三方开放了一个接口，获取用户认证信息的接口
 
 # Oauth协议，名词定义
@@ -17,3 +17,21 @@
 - 1、用户点击QQ登录时，登录成功，腾讯服务器先给你一个code
 - 2、确认登录，会将这个code返回到客户端，并带回到认证服务器，验证是否成功，成功后会返回一个access_token
 - 3、带着access_token,去向资源服务，请求受保护的资源给客户端
+
+# 微信公众号的oauth https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_webpage_authorization.html
+`
+
+    1 第一步：用户同意授权，获取code
+    
+    2 第二步：通过 code 换取网页授权access_token
+    
+    3 第三步：刷新access_token（如果需要）
+    
+    4 第四步：拉取用户信息(需 scope 为 snsapi_userinfo)
+    
+    5 附：检验授权凭证（access_token）是否有效
+`
+
+# scope参数
+- scope为snsapi_base 自动会授权
+- scope为snsapi_userinfo 需要客户点击确认

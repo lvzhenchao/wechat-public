@@ -22,16 +22,14 @@ $msg = http_post($access_token,$json);
 $ticket = json_decode($msg,true);
 
 
-//ticket生成二维码
+//ticket生成二维码；通过 ticket 换取二维码
 $qr_url = 'https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket='.$ticket['ticket'];
 $res = file_get_contents($qr_url);
 header('Content-type:image/png');
 echo $res;
 
-//url 生成二维码
-
+//url 生成二维码 需要引入第三方扩展
 //require_once 'phpqrcode.php';
-
 //QRcode::png($ticket['url']);
 
 

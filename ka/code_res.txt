@@ -1,0 +1,4 @@
+{"errcode":0,"errmsg":"ok","card":{"card_id":"povLMv30oD7FVDlgi_x5zZjLubdY"},"openid":"oovLMv78NK5zhdr6AZ-WWWNHBPFo"}
+{"errcode":45061,"errmsg":"maybe the update frequency is too often, please try again hint: [qmJ0493ha32]"}
+{"errcode":0,"errmsg":"ok","card":{"card_id":"povLMv30oD7FVDlgi_x5zZjLubdY"},"openid":"oovLMv78NK5zhdr6AZ-WWWNHBPFo"}
+{"errcode":40099,"errmsg":"invalid code, this code has consumed. hint: [LOVJGa06383719]"}
